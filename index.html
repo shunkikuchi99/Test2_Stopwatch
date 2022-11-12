@@ -1,0 +1,57 @@
+ <!DOCTYPE html>
+ <html lang="en">
+  <head>
+   <meta charset="utf-8">
+   <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
+   <link rel="stylesheet" href="main.css">
+   <title>電卓</title>
+  </head>
+ 
+  <body>
+   <table>
+    <tr>
+     <td class="MainScreen" colspan="4" id="result">0</td>
+    </tr>
+    <tr>
+     <td><button class="button" onclick="clickbutton(this)">7</td>
+     <td><button class="button" onclick="clickbutton(this)">8</td>
+     <td><button class="button" onclick="clickbutton(this)">9</td>
+     <td><button class="button" onclick="clickbutton(this)">/</td>
+    </tr>
+    <tr>
+     <td><button class="button" onclick="clickbutton(this)">4</td>
+     <td><button class="button" onclick="clickbutton(this)">5</td>
+     <td><button class="button" onclick="clickbutton(this)">6</td>
+     <td><button class="button" onclick="clickbutton(this)">*</td>
+    </tr>
+    <tr>
+     <td><button class="button" onclick="clickbutton(this)">1</td>
+     <td><button class="button" onclick="clickbutton(this)">2</td>
+     <td><button class="button" onclick="clickbutton(this)">3</td>
+     <td><button class="button" onclick="clickbutton(this)">-</td>
+    </tr>
+   </table>
+   <div class="ButtonList_0toPlus">
+    <table>
+     <tr>
+      <td><button class="button_0" onclick="clickbutton(this)">0</td>
+      <td><button class="button" onclick="clickbutton(this)">.</td>
+      <td><button class="button" onclick="clickbutton(this)">+</td>
+     </tr>
+    </table>
+   </div>
+   <div>
+    <table>
+     <tr class ="ButtonList_ACandEqual">
+      <td><button class="button_AC" onclick="clickbutton(this)">AC</td>
+      <td><button class="button_equal" onclick="clickbutton(this)">=</td>
+     </tr>
+    </table>
+   </div>
+  </div>
+   
+   
+   <script src="main.js"></script>
+  </body>
+ </html>
+ 
